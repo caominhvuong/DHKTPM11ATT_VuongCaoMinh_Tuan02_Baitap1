@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:orientation="vertical" >
+    <TextView
+        android:id="@+id/Soa"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Số a:" />
+    <EditText
+        android:id="@+id/nhapa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"/>
+    <TextView
+        android:id="@+id/Sob"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Số b:" />
+    <EditText
+        android:id="@+id/nhapb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"/>
+    <TextView
+        android:id="@+id/Ketqua"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+
+    <Button
+        android:id="@+id/Tong"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tổng 2 số" />
+        android:layout_gravity="center_vertical"/>
+    <Button
+        android:id="@+id/Hieu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hiệu 2 số" />
+    android:layout_gravity="center_vertical"/>
+    <Button
+        android:id="@+id/Tich"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tích 2 số" />
+    android:layout_gravity="center_vertical"/>
+    <Button
+        android:id="@+id/Thuong"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Thương 2 số" />
+    android:layout_gravity="center_vertical"/>
+    <Button
+        android:id="@+id/Uoc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ước số chung lớn nhất" />
+    android:layout_gravity="center_vertical"/>
+    <Button
+        android:id="@+id/Thoat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Thoát chương trình"
+        android:textColor="#c70303"/>
+    android:layout_gravity="center_vertical"/>
+
+
+
+</LinearLayout>
